@@ -6,7 +6,7 @@ import{HttpClient}from '@angular/common/http'
   providedIn: 'root'
 })
 export class EstudianteService {
-  url="http://localhost:3000/estudiante"
+  url="https://parcialraul.herokuapp.com/estudiante"
   constructor(  private http:HttpClient) { }
 
 

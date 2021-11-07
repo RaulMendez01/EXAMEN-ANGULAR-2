@@ -7,7 +7,7 @@ import{HttpClient}from '@angular/common/http'
 export class CursosService {
 
 
-  url="http://localhost:3000/curso"
+  url="https://parcialraul.herokuapp.com/curso"
   constructor(private http:HttpClient) { }
 
   getModelos(){
